@@ -1,4 +1,4 @@
-// In JavaScript, an object is a data type that allows you to store and organize data. It is a collection of key-value pairs, where each key is a string (or symbol) and each value can be of any data type, including other objects.
+// In JavaScript, an object is a collection of key-value pairs, where each key is a string (or symbol) and each value can be of any data type, including other objects.
 
 
 
@@ -29,7 +29,6 @@ jsUser.email = "sid@microsoft.com";
 // console.log(jsUser.email);
 
 // Suppose you want that now no one can update the values in the object then we will freeze the object.
-
 // Object.freeze(jsUser);
 jsUser.email = "sid@google.com"; // It will not produce any error but also not update anything
 // console.log(jsUser.email);

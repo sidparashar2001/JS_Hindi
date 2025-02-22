@@ -2,9 +2,9 @@
 const instruments = ["Guitar","Harmonica","Kazoo","Saxophone"];
 const scales = ["Major","Minor","Pentatonic","Blues"];
 
-// console.log(instruments.push(scales));//it will push the array in instruments but not change the array
+// console.log(instruments.push(scales));// it will push the array in instruments and modifies the instrument array and also it will directly push the whole scales array as an single element
 // console.log(instruments);
-// const newArray = instruments.concat(scales);
+// const newArray = instruments.concat(scales); // it will concat elements one by one as an single element and won't modify the original array
 // const bluearray = instruments.push(scales);
 // console.log(instruments);
 // console.log(newArray);

@@ -28,11 +28,12 @@ const obj1 = { fname: "Siddharth", lname: "Parashar" };
 const obj2 = { faname: "Rajesh", lname: "Parashar" };
 // Method 1
 // const obj3= {obj1,obj2}; //This won't work fine
+
 // Method2
-// const obj3 = Object.assign(obj1,obj2);
+// const obj3 = Object.assign(obj1,obj2); // It updates existing object means obj1
 
 // Method 3 - Use this method mostly
-const obj3 = { ...obj1, ...obj2 }; // In this method if the keys are same then it will overwrite the value and if are different then only will make new key
+const obj3 = { ...obj1, ...obj2 }; // It doesn't updates any object
 
 // console.log(obj3);
 
@@ -55,7 +56,7 @@ const users = [
 
 
 // Object destructuring
-
+// It allows us to extract specific properties from an object and assign them to variables . Instead of accessing each property manually, you can do it in one step using curly braces
 const course = {
     coursename: "Javascript",
     price: "999",
